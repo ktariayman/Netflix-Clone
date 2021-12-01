@@ -1,0 +1,84 @@
+.signupScreen{
+    max-width: 330px;
+    padding:5rem ;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(56, 55, 55);
+    height: 350px;
+    margin-top: -5rem;
+    border: 2px solid #111;
+    border-radius: 5%;
+}
+.signupScreen >form{
+    display: grid;
+    flex-direction: column;
+}
+.signupScreen > form>h1{
+    text-align: left;
+    margin-top: -1.5rem;
+    margin-right: 50px;
+}
+.signupScreen > form > input{
+    padding:5px 15px ;
+    outline-width: 0;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.signupScreen > form> button{
+    cursor: pointer;
+    padding: 16px 1.25rem;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background-color: #e50914;
+    border-radius: 5px;
+}
+.login-remember-me-label-text-checkbox{
+    top: 0;
+    left: 0;
+    text-align: left;
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: #b3b3b3;
+}
+.login-remember-me-label-text-checkbox > a{
+    margin-left: 162px;
+}
+.signinwithfacebook{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;   
+    width: 100%;
+}
+.signinwithfacebook >  img{
+    height: 20px;
+    width: 20px;
+}
+.signinwithfacebook >.signinwithfacebook__facebook{
+    cursor: pointer;
+    padding: 16px 1.25rem;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background-color: #3b5998;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+.new_to-netflix {
+    margin-right: 128px;
+}
+.label_email{
+    margin: 15px 0;
+
+}
+label {
+    text-align: start;
+    margin-bottom: 15px;
+}

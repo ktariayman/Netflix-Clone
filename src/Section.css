@@ -1,0 +1,127 @@
+.Section_first {
+    display: flex;
+    flex-direction:column;
+    height: 450px;
+    background-color: rgb(15, 15, 15);
+    margin-top: 140px;
+    margin-left: -20px;
+    width: 109%;
+    border-top: 8px solid #222;
+    border-bottom: 8px solid #222;
+}
+.Section {
+    
+    display: flex;
+    flex-direction:column;
+    height: 450px;
+    background-color: rgb(15, 15, 15);
+    margin-left: -20px;
+    width: 109%;
+    border-bottom: 8px solid #222;
+}
+h1 , h3{
+    color: white;
+}
+.section__content{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+}
+.section__text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    
+}
+.section__text > h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.section__text > h3{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.section__content > .section__img1 {
+    width: 25%;
+    margin-right: 10%;
+    margin-top: 6%;
+    border-radius: 10%;
+}
+.section__content > .section__img2 {
+    border-radius: 10%;
+    width: 20%;
+    margin-top: 3%;
+    height: 70%;
+}
+.section__content > .section__img3 {
+    width: 25%;
+    margin-top: 5%;
+    border-radius: 10%;
+}
+.section__content > .section__img4 {
+    width: 25%;
+    margin-right: 6%;
+    margin-top: 5%;
+    border-radius: 10%;
+}
+@media (max-width : 900px){
+    .Section_first {
+        height: 550px;
+    } 
+    .Section {
+        height: 550px;
+    }
+    .section__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section__text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;    
+        margin-top: 108px;
+
+    }
+    .section__text > h3 {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .section__text > h1 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .section__content > .section__img1 , .section__img2, .section__img3 , .section__img4{
+        width: 190px;
+        height: 70%;
+        position: relative;
+        left: 37%;   
+
+    }
+    .section__content > .section__img3 {
+        width: 158px;
+        margin-top: 10%;
+        border-radius: 10%;
+    }        
+    .Section_GetStated {
+        height: 250px;
+        
+    }
+    .Section_GetStated > h2{
+        font-size: 14px; 
+
+    }
+    
+    
+}
+.Section_GetStated {
+    display: flex;
+    flex-direction:column;
+    height: 150px;
+    background-color: rgb(15, 15, 15);
+    margin-left: -20px;
+    width: 109%;
+    border-bottom: 8px solid #222;
+}

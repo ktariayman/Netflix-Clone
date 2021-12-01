@@ -1,0 +1,98 @@
+.profileScreen{
+    height: 100vh;
+    color: white;
+}
+
+.profileScreen__body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.profileScreen__info{
+    display: flex;
+}
+
+.profileScreen__info > h1{
+    font-size: 4rem;
+    font-weight: 500;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+    background-color: gray;
+}
+
+.profileScreen__info > img{
+    height: 100px;
+}
+
+.profileScreen__details{
+    color: white;
+    margin-left: 25px;
+    flex: 1;   
+}
+
+.profileScreen__details > h2{
+    background-color: gray;
+    padding:1rem;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+.profileScreen__details > img{
+    height: 100px;
+}
+
+.profileScreen__signOut{
+    padding: 10px 20px ;
+    font-size: 1rem;
+    margin-top:5%;
+    width: 100%;
+    color: #fff;
+    background-color: #f50914;
+    font-weight:600;
+    border: none;
+    cursor: pointer;
+}
+
+.profileScreen__plans > h3{
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+}
+
+.profileScreen__plans{
+    margin-top: 1.25rem;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rows > .row > h4{
+    font-size: 14px;
+}
+.rows > .row >  button {
+    padding: 10px 20px  ;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #f50914;
+    font-weight:600;
+    border: none;
+    cursor: pointer;
+    
+}
+@media (max-width : 800px){
+    .rows > .row > button{
+        padding : 10px 5px;
+    }
+}
+.loginScreen__body{
+    padding: 0;
+}
